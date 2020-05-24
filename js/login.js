@@ -14,7 +14,7 @@ function login(numero) {
 function validar() {
      pass =+ document.getElementById('pass').value;
        
-    if ( pass === 70381222 && document.getElementById('pantalla2').style.display == 'none' && document.getElementById('pantalla3').style.display == 'none' && document.getElementById('pantalla4').style.display == 'none' && document.getElementById('pantalla5').style.display == 'none'  ) {
+    if ( pass === 1 && document.getElementById('pantalla2').style.display == 'none' && document.getElementById('pantalla3').style.display == 'none' && document.getElementById('pantalla4').style.display == 'none' && document.getElementById('pantalla5').style.display == 'none'  ) {
         document.getElementById('pantalla1').style.display='none';
         document.getElementById('pantalla2').style.display='block';
         
@@ -74,7 +74,9 @@ function otras(numero) {
         document.getElementById('b2').style.display = 'block';
         document.getElementById('b3').style.display = 'block';
         document.getElementById('b4').style.display = 'block';
-               
+        document.getElementById('mensaje3.1').style.display = 'none';
+        document.getElementById('bo1').style.display = 'block';
+               limpiar();
        
 
 
@@ -98,6 +100,10 @@ function otras(numero) {
         document.getElementById('bo11').style.display = 'block';
         document.getElementById('bo1').style.display = 'none';
         retiro += parseInt(n);
+        document.getElementById('bo2').style.display = 'none';
+        document.getElementById('bo21').style.display = 'block';
+
+         limpiar2(); 
     }else{
         document.getElementById('mensaje3.1').style.display = 'block';
         limpiar2(); 
@@ -116,18 +122,19 @@ function otras(numero) {
         document.getElementById('pantalla6').style.display = 'none';
         document.getElementById('bo11').style.display = 'none';
         document.getElementById('bo1').style.display = 'block';
-        
+        document.getElementById('mensaje3.1').style.display = 'none';
+
 
     }
     }
     function consultas(num) {
-        alert(retiro);
         if (num == '1' && document.getElementById('pantalla2').style.display == 'block') {
             document.getElementById('pantalla2').style.display = 'none';
             document.getElementById('pantalla7').style.display = 'block';
-            alert(retiro);
             dinero = dinero - retiro;
             document.getElementById("dinero").value = dinero ;
+            document.getElementById('bo4').style.display = 'none';
+            document.getElementById('bo41').style.display = 'block';
             
         }
     }
@@ -155,12 +162,40 @@ function otras(numero) {
             document.getElementById('pantalla5').style.display = 'none';
             document.getElementById('bo3').style.display = 'block';
             document.getElementById('bo31').style.display = 'none';
+            document.getElementById('bo21').style.display = 'none';
+            document.getElementById('bo2').style.display = 'block';
         }
     }
     function atras(num) {
-        
+        if (num == 1 && document.getElementById('pantalla7').style.display == 'block') {
+            document.getElementById('pantalla7').style.display = 'none';
+            document.getElementById('pantalla2').style.display = 'block';
+            document.getElementById('bo4').style.display = 'block';
+            document.getElementById('bo41').style.display = 'none';
+            document.getElementById('bo2').style.display = 'block';
+            document.getElementById('bo21').style.display = 'none';
+
+            retiro = 0;
+        }
     }
-        
+    function no(num) {
+        if (num == 1 && document.getElementById('pantalla6').style.display == 'block') {
+            document.getElementById('pantalla6').style.display = 'none';
+            document.getElementById('pantalla2').style.display = 'block';
+            document.getElementById('bo1').style.display = 'block';
+            document.getElementById('bo4').style.display = 'block';
+            document.getElementById('bo41').style.display = 'none';
+            document.getElementById('bo2').style.display = 'block';
+            document.getElementById('bo21').style.display = 'none';
+            document.getElementById('bot1').style.display = 'block';
+            document.getElementById('bot').style.display = 'none';
+            document.getElementById('bo3').style.display = 'block';
+            document.getElementById('bo31').style.display = 'none';
+            document.getElementById('bo11').style.display = 'none';
+            document.getElementById('mensaje3.1').style.display = 'none';
+            
+        }
+    }
     
    
 
