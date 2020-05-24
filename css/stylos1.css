@@ -1,0 +1,407 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.cajaprincipal{
+    width: 900px;
+    height:630px;
+    background-color: gray;
+    border-radius: 50px;
+    margin: 0 auto;
+    margin-top: 70px;
+    
+}
+.boton{
+ width: 40px;
+ height: 30px;
+border-radius: 0.5rem;
+border: none ;
+margin-top: 40px;
+margin-left: 50px;
+}
+.boton1{
+    width:40px;
+    height:30px;
+   border-radius: 0.5rem;
+   border: none ;
+   margin-top: 40px;
+   margin-left: 700px;
+
+   }
+.pantalla{
+    width: 500px;
+    height: 300px;
+    background-color: rgb(245, 218, 69);
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 190px;
+    border-radius: 0.5rem;
+    border: 10px solid rgba(96, 100, 100, 0.993);
+}
+.botoncito{
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    border: 1px solid black; 
+  }       
+
+.botones_op{
+    width: 80px;
+    height: 50px;
+    
+    margin-left: 15px;
+    border-radius: 10px;
+    border: 1px solid black;  
+}
+.botones_g{
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.naruto{
+float: right;
+width: 580px;
+height:250px;
+margin-right: -20px;
+}
+.cuadrado1 {
+  width: 200px;
+  height: 15px;
+  background-color: rgb(54, 52, 52);
+   border-radius: 10px;
+    border: 5px solid rgba(128, 128, 128, 0.534);
+    float: left;
+    margin-right: 50px;
+    margin-left: 20px;
+    margin-top: 30px;
+  }
+ 
+   .cuadrado2 {
+    width: 400px;
+    height: 15px;
+    background-color: rgb(54, 52, 52);
+    border-radius: 10px;
+    border: 5px solid rgba(128, 128, 128, 0.534);
+    margin-left: 60px; 
+    position: absolute;
+    margin-top: 100px;
+   }
+   .cuadrado3 {
+    width: 400px;
+    height: 15px;
+    background-color: rgb(54, 52, 52);
+    border-radius: 10px;
+    border: 5px solid rgba(128, 128, 128, 0.534);
+    margin-left: 60px; 
+    position: absolute;
+    margin-top: 180px;
+   }
+    
+   .texto1 {
+    width: 100px;
+     height: 20px;
+      margin-left: 70px;
+      margin-top: 5px;
+        text-align: center;
+      position: absolute;
+    }
+    .texto2 {
+       
+          margin-left: 70px;
+          margin-top: 5px;
+          position: absolute;
+          text-align: center;
+          padding-left: 300px;
+        }
+        .texto3 {   
+            
+            margin-left: 250px;
+
+            position: absolute;
+            text-align: center;
+            padding-top: 80px;
+            }
+            .texto4 {   
+            
+                margin-left: 240px;
+    
+                position: absolute;
+                text-align: center;
+                padding-top: 160px;
+                }
+      
+ .letra_pantalla1{
+  font-size: 37px;
+  
+ }  
+ .ca{
+   right: 400px;
+   margin-top: 20px;
+   width: 200px;
+   height: 25px;
+   border: 1px solid chocolate;
+   margin-left: 20px;
+ }
+ .mensaje{
+   font-size: 30px;
+   margin-top: 20px;
+   margin-left: 20px;
+ }
+ .titulo2{
+   position: absolute;
+  font-family: 'Balsamiq Sans', cursive;
+  font-size: 30px;
+  color: rgb(197, 72, 14);
+  margin-top: 15px;
+  margin-left: 123px;
+ }
+ 
+ .letras1_pantalla2{
+   position: absolute;
+  font-family: 'Balsamiq Sans', cursive;
+  font-family: 'Open Sans', sans-serif;
+  size: 30px;
+  margin-left: 35px;
+  margin-top: 100px;
+  color: rgb(104, 64, 12);
+
+ }
+ .letras2_pantalla2{
+  position: absolute;
+ font-family: 'Balsamiq Sans', cursive;
+ font-family: 'Open Sans', sans-serif;
+ size: 30px;
+ margin-left: 35px;
+ margin-top: 140px;
+ color: rgb(104, 64, 12);
+
+}
+.letras3_pantalla2{
+  position: absolute;
+ font-family: 'Balsamiq Sans', cursive;
+ font-family: 'Open Sans', sans-serif;
+ size: 30px;
+ margin-left: 35px;
+ margin-top: 180px;
+ color: rgb(104, 64, 12);
+
+}
+.letras4_pantalla2{
+  position: absolute;
+ font-family: 'Balsamiq Sans', cursive;
+ font-family: 'Open Sans', sans-serif;
+ size: 30px;
+ margin-left:325px;
+ margin-top: 100px;
+ color: rgb(104, 64, 12);
+
+}
+.letras5_pantalla2{
+  position: absolute;
+ font-family: 'Balsamiq Sans', cursive;
+ font-family: 'Open Sans', sans-serif;
+ size: 30px;
+ margin-left: 325px;
+ margin-top: 180px;
+ color: rgb(104, 64, 12);
+
+}
+.titulo3{
+  position: absolute;
+ font-family: 'Balsamiq Sans', cursive;
+ font-size: 30px;
+ color: rgb(197, 72, 14);
+ margin-top: 15px;
+ margin-left: 180px;
+ 
+}
+.letras2_pantalla3{
+  position: absolute;
+ font-family: 'Balsamiq Sans', cursive;
+ font-family: 'Open Sans', sans-serif;
+ size: 30px;
+ margin-left: 325px;
+ margin-top: 210px;
+ color: rgb(104, 64, 12);
+
+}
+.cant1{
+size: 30px;
+margin-top: 100px;
+margin-left: 35px;
+position: absolute;
+}
+.canti1{
+  position: absolute;
+ font-family: 'Balsamiq Sans', cursive;
+ font-family: 'Open Sans', sans-serif;
+ size: 30px;
+ margin-left:370px;
+ margin-top: 100px;
+ color: rgb(104, 64, 12);
+
+}
+.canti2{
+  position: absolute;
+  font-family: 'Balsamiq Sans', cursive;
+  font-family: 'Open Sans', sans-serif;
+  size: 30px;
+  margin-left:370px;
+  margin-top: 135px;
+  color: rgb(104, 64, 12);
+}
+.canti3{
+  position: absolute;
+  font-family: 'Balsamiq Sans', cursive;
+  font-family: 'Open Sans', sans-serif;
+  size: 30px;
+  margin-left:370px;
+  margin-top: 170px;
+  color: rgb(104, 64, 12);
+}
+.canti4{
+  position: absolute;
+  font-family: 'Balsamiq Sans', cursive;
+  font-family: 'Open Sans', sans-serif;
+  size: 30px;
+  margin-left:370px;
+  margin-top: 235px;
+  color: rgb(104, 64, 12);
+}
+.titulo4{
+  position: absolute;
+ font-family: 'Balsamiq Sans', cursive;
+ font-size: 30px;
+ color: rgb(197, 72, 14);
+ margin-top: 10px;
+ margin-left: 10px;
+ padding: 30px;
+ 
+}
+.canti6{
+  position: absolute;
+  font-family: 'Balsamiq Sans', cursive;
+  font-family: 'Open Sans', sans-serif;
+  size: 30px;
+  margin-left:370px;
+  margin-top: 180px;
+  color: rgb(104, 64, 12);
+}
+.retiro{
+  position: absolute;
+  width: 100px;
+  height: 60px;
+  background-color: rgb(245, 218, 69);
+  margin-top: 130px;
+  margin-left: 180px;
+  border: none;
+  font-size: 30px;
+}
+.VALIDA{
+  position: absolute;
+  font-size: 15px;
+  margin-left: 15px;
+  margin-top: 193px;
+  font-family: 'Balsamiq Sans', cursive;
+  
+  color: rgb(104, 64, 12);
+
+}
+.soles{
+  position: absolute;
+  font-size: 30px;
+  margin-top: 142px;
+  margin-left: 145px;
+}
+.titulo5{
+  position: absolute;
+ font-family: 'Balsamiq Sans', cursive;
+ font-size: 22px;
+ color: rgb(97, 72, 14);
+ margin-top: 90px;
+ margin-left: 10px;
+ padding: 30px;
+ 
+}
+.letritasi{
+  position: absolute;
+  font-size: 20px;
+  color: rgb(104, 64, 12);
+  font-family: 'Balsamiq Sans', cursive;
+  margin-top: 190px;
+  margin-left: 390px;
+}
+.letritano{
+  position: absolute;
+  font-size: 20px;
+  color: rgb(104, 64, 12);
+  font-family: 'Balsamiq Sans', cursive;
+  margin-top: 240px;
+  margin-left: 390px;
+}
+.titulo6{
+  position: absolute;
+  font-size: 20px;
+  color: rgb(104, 64, 12);
+  font-family: 'Balsamiq Sans', cursive;
+  margin-top: 34px;
+  margin-left: 170px;
+}
+.titulo77{
+  position: absolute;
+  font-size: 20px;
+  color: rgb(104, 64, 12);
+  font-family: 'Balsamiq Sans', cursive;
+  margin-top: 86px;
+  margin-left: 20px;
+}
+.consulsoles{
+  position: absolute;
+  width: 100px;
+  height: 35px;
+  background-color: rgb(245, 218, 69);
+  margin-top: 130px;
+  margin-left: 320px;
+  border: none;
+  font-size: 30px;
+  color: black;
+}
+.titulo9{
+  position: absolute;
+ font-family: 'Balsamiq Sans', cursive;
+ font-size: 22px;
+ color: rgb(197, 72, 14);
+ margin-top: -20px;
+ margin-left: -4px;
+ padding: 30px;
+ text-align: center;
+}
+.saldo{
+  position: absolute;
+  width: 500px;
+  margin-top: 130px;
+  margin-left: 30px;
+  font-size: 25px;
+  text-align: left;
+}
+.numerocuenta{
+  position: absolute;
+  width: 300px;
+  height: 35px;
+  margin-top: 170px;
+  margin-left: 50px;
+  font-size: 15px;
+}
+.soles1{
+  position: absolute;
+  font-size: 30px;
+  margin-top: 133px;
+  margin-left: 280px;
+}
+.atras{
+  position: absolute;
+ font-family: 'Balsamiq Sans', cursive;
+ font-size: 22px;
+ color: rgb(104, 64, 12);
+ margin-top: 250px;
+ margin-left: 400px;
+}

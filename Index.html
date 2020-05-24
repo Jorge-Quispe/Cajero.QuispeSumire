@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/stylos1.css">
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&family=Open+Sans:wght@600&display=swap" rel="stylesheet">
+
+    <title> CAJERO AUTOMATICO QUISPES SUMIRE</title>
+</head>
+<body >
+
+    <section class="cajaprincipal">
+            <section class="caja-sup">
+                <div>
+                    <table style="float: left; " >
+                        <tr>
+                            <td>
+                                <button class="boton" id="bot1"  onclick="ing_retiro('1')"  >  <img src="imagenes/fecha_derecha.png" alt="" width="30px" height="20px"></button>
+                                <button class="boton" id="bot"  onclick="soles('1')"  style="display: none;">  <img src="imagenes/fecha_derecha.png" alt="" width="30px" height="20px"></button>
+
+                            </td>
+                            
+                        </tr>
+                       
+                        <tr>
+                            <td>
+                                <button onclick="consultas('1')" class="boton" id="bot2">  <img src="imagenes/fecha_derecha.png" alt="" width="30px" height="20px"></button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <button class="boton" id="bot3">  <img src="imagenes/fecha_derecha.png" alt="" width="30px" height="20px"></button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <button class="boton" id="bot4">  <img src="imagenes/fecha_derecha.png" alt="" width="30px" height="20px"></button>
+                            </td>
+                    
+                        </tr>
+                        
+                    </table>
+                </div>
+                <section class="pantalla" style="float: left" >
+                            <section id="pantalla1"  >
+                            <div  >
+                                    <h1 class="letra_pantalla1">!Bienvenido al banco! </h1>
+                                    <h2 class="letra_pantalla2">Por Favor Digite Su clave</h2>
+                                    <input type="password"  id="pass" class="ca"  >
+                                    <div id="mensaje"  style="display: none;">
+                                        <p  class="mensaje"> CONTRASEÑA INCORRECTA!!!! </p>
+                                    </div>
+                                </div>
+                            </section>
+                           
+                            <section id="pantalla2" style="display: none;">
+                                <header >
+                                    <div class="titulo2"> MENU PRINCIPAL</div>
+                                </header>
+                                <section>
+                                   
+                                    <section>
+                                        <div class="letras1_pantalla2"> RETIRO </div>
+                                        <div class="letras2_pantalla2"> CONSULTAS </div>
+                                        <div class="letras3_pantalla2"> OPERACIONES </div>
+                                    </section>
+                                    <section>
+                                        <div class="letras4_pantalla2"> TRANSFERENCIAS </div>
+                                        <div class="letras5_pantalla2"> ULTIMOS MOVIMIENTOS </div>
+                                    </section>
+                                </section>
+                                
+                            </section>
+                            <section id="pantalla3" style="display: none;">
+                                <header>
+                                    <div class="titulo3" > RETIRO  </div>
+                                </header>
+                                <section>
+                                    <div class="letras1_pantalla2"> RETIRO SOLES </div>
+                                </section>
+                                <section>
+                                    <div class="letras4_pantalla2"> RETIRO DOLARES </div> 
+                                    <div class="letras2_pantalla3"> CANCELAR </div>
+                                </section>
+                            </section>
+                            <section id="pantalla4" style="display: none;">
+                                <header>
+                                    <div class="titulo3" > RETIRO  </div>
+                                </header>
+                                <section>
+                                    <div class="letras1_pantalla2"> S/.20 </div>
+                                    <div class="letras2_pantalla2"> S/.150 </div>
+                                    <div class="letras3_pantalla2"> S/.300 </div>
+                                </section>
+                                <div class="canti1"> S/.100</div>
+                                <div class="canti2"> S/.200</div>
+                                <div class="canti3"> OTRAS CANTIDADES </div>
+                                <div class="canti4"> CANCELAR </div>
+                                <section>
+
+                                </section>
+                            </section>
+                            <section id="pantalla5" style="display: none;">
+                                <header>
+                                    <div class="titulo9"> INGRESAR MONTO A RETIRAR EN MULTIPLOS DE 10 </div>
+                                </header>
+                                <section>
+                                    <input type="text" class="retiro" id="retiro">
+                                    <div class="soles"> S/.</div>
+                                    <div class="canti2"> CONFIRMAR </div>
+                                    <div class="canti6"> CORREGIR </div>
+                                    <div class="canti4"> CANCELAR </div>
+                                    <div id="mensaje3.1"  class="VALIDA" style="display: none;"> ERROR... ¡SOLO SE ACEPTAN MULTIPLOS DE 10! </div>
+
+                                </section>
+                            </section>
+                            <section id="pantalla6" style="display: none;">
+                                   <header>
+                                       <div class="titulo4"> TRANSACCION PROCESADA </div>
+                                   </header>
+                                   <div class="titulo5"> ¿DESEA REALIZAR OTRA TRANSACCION?</div>
+                                        <div class="letritasi"> SI</div>
+                                        <div class="letritano">  NO </div>
+                                   
+                            </section>
+                            <section id="pantalla7" style="display: none;">
+                                <header>
+                                    <div class="titulo6"> CONSULTAS </div>
+                                </header>
+                                <section>
+                                    <div class="titulo77">  °Mis Cuentas  e Inversiones </div>
+                                    <div class="saldo"> Cuenta De Ahorro </div>
+                                    <div class="numerocuenta"> 192-34535367-0-23 </div>
+                                    <div class="soles1"> S/.</div>
+                                    <input id="dinero" class="consulsoles" type="text" disabled >
+                                     <div class="atras"> Atras </div>   
+                                </section>
+                            </section>
+                </section>
+                <section class="section2.0 ">
+                    <div>
+                        <table  >
+                            <tr>
+                                <td>
+                                    <button id="bo1" class="boton1" onclick="val('1')">  <img src="imagenes/fecha_izquierda.png" alt="" width="30px" height="20px"></button>
+                                    <button  id="bo11" style="display: none;" class="boton1" onclick="siono('1')">  <img src="imagenes/fecha_izquierda.png" alt="" width="30px" height="20px"></button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <button onclick="cancelar1('1')" class="boton1" >  <img src="imagenes/fecha_izquierda.png" alt="" width="30px" height="20px"></button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <button id="bo3" class="boton1 " onclick="otras('1')">  <img src="imagenes/fecha_izquierda.png" alt="" width="30px" height="20px"></button>
+                                    <button id="bo31" class="boton1 " onclick="cancelar3('1')" style="display: none;"  >  <img src="imagenes/fecha_izquierda.png" alt="" width="30px" height="20px"></button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <button class="boton1" onclick="cancelar2('1')">   <img src="imagenes/fecha_izquierda.png" alt="" width="30px" height="20px"></button>
+                                </td>
+                        
+                            </tr>
+                            
+                        </table>
+                    </div>
+               
+
+                </section>
+            </section>
+            <section class="caja-inf">
+                <section class="botones_g"  > 
+                   <div class="numeros" style="float: left;" id="n_p"> 
+                    <div>
+                        <button id="n1" class="botoncito " onclick="login('1')"  > 1 </button>
+                        <button id="n2" class="botoncito" onclick="login('2')"> 2 </button>
+                        <button id="n3" class="botoncito" onclick="login('3')">  3 </button>
+
+                    </div>
+                    <div>
+                        <button id="n4" class="botoncito" onclick="login('4')"> 4 </button>
+                        <button id="n5" class="botoncito" onclick="login('5')"> 5 </button>
+                        <button id="n6" class="botoncito" onclick="login('6')"> 6 </button>
+                    </div>
+                    <div>
+                        <button id="n7" class="botoncito" onclick="login('7')" > 7 </button>
+                        <button id="n8" class="botoncito" onclick="login('8')" > 8 </button>
+                        <button id="n9" class="botoncito" onclick="login('9')" > 9 </button>
+                    </div>
+                    <div >
+                        <button id="n121" class="botoncito" disabled >.</button>
+
+                        <button id="n10" class="botoncito" onclick="login('0')"> 0 </button>
+                        <button id="n11" class="botoncito" onclick="login('.')"> . </button>
+                    </div>
+                    
+                   </div>
+                   <div class="numeros" style="float: left;" id="n_p" > 
+                    <div id="b1" style="display: none;" >
+                        <button id="n11" class="botoncito " onclick="retiroso('1')"  > 1 </button>
+                        <button id="n21" class="botoncito" onclick="retiroso('2')"> 2 </button>
+                        <button id="n31" class="botoncito" onclick="retiroso('3')">  3 </button>
+
+                    </div>
+                    <div style="display: none;" id="b2">
+                        <button id="n41" class="botoncito" onclick="retiroso('4')"> 4 </button>
+                        <button id="n51" class="botoncito" onclick="retiroso('5')"> 5 </button>
+                        <button id="n61" class="botoncito" onclick="retiroso('6')"> 6 </button>
+                    </div >
+                    <div style="display: none;" id="b3">
+                        <button id="n71" class="botoncito" onclick="retiroso('7')" > 7 </button>
+                        <button id="n81" class="botoncito" onclick="retiroso('8')" > 8 </button>
+                        <button id="n91" class="botoncito" onclick="retiroso('9')" > 9 </button>
+                    </div>
+                    <div style="display: none;" id="b4">
+                        <button id="n1211" class="botoncito" disabled >.</button>
+
+                        <button id="n101" class="botoncito" onclick="retiroso('0')"> 0 </button>
+                        <button id="n111" class="botoncito" onclick="retiroso('.')"> . </button>
+                    </div>
+                    
+                   </div>
+                </section>
+                <section  style="float: left; "   >
+                    <div  id="e" >
+                        <div>
+                            <button id="cancelar"  class="botones_op" style="background-color: red;"> CANCELAR </button>
+                             
+                        </div>
+                        <div>
+                            <button id="limpiar" class="botones_op" style="background-color: chocolate;" onclick="limpiar()"> CLEAR </button>
+                        </div>
+                        
+                        <div>
+                            <button id="ok" class="botones_op" style="background-color: green;" onclick="validar()" > OK  </button>
+                           
+
+                        </div>
+                       
+                    </div>
+                    
+                       
+                    </div>
+                </section>
+                <section class="naruto">
+                    <div  >
+                        <div>
+                            <div class="texto1" > CARD </div>
+
+                            <div class="cuadrado1" ></div>
+                            <div class="texto2" > RECEIPT </div>
+
+                            <div class="cuadrado1"></div>
+                        </div>
+                        <div>
+                            <div class="texto3" > CASH </div>
+
+                            <div class="cuadrado2"> </div>
+
+                        </div>
+                        <div>
+                            <div class="texto4" > DEPOSITED </div>
+
+                            <div class="cuadrado3"> </div>
+
+                        </div>
+                    </div>
+                </section>
+                
+            </section>
+    </section>
+    <script src="js/login.js"></script>
+</body>
+</html>
