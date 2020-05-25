@@ -638,3 +638,20 @@ position: absolute;
  margin-top: 142px;
  color: rgb(104, 64, 12);
 }
+.titulo411{
+  position: absolute;
+  font-family: 'Balsamiq Sans', cursive;
+  font-size: 30px;
+  color: rgb(104, 64, 12);
+  margin-left: 240px;
+  margin-top: 50px;
+}
+.atras1{
+  position: absolute;
+  font-family: 'Balsamiq Sans', cursive;
+  color: rgb(104, 64, 12);
+  font-size: 26px;
+  margin-left: 600px;
+  margin-top: 260px;
+
+}

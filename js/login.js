@@ -14,7 +14,7 @@ function login(numero) {
 function validar() {
      pass =+ document.getElementById('pass').value;
        
-        if ( pass === 1 && document.getElementById('pantalla2').style.display == 'none' && document.getElementById('pantalla3').style.display == 'none' && document.getElementById('pantalla4').style.display == 'none' && document.getElementById('pantalla5').style.display == 'none'  ) {
+        if ( pass === 70381222 && document.getElementById('pantalla2').style.display == 'none' && document.getElementById('pantalla3').style.display == 'none' && document.getElementById('pantalla4').style.display == 'none' && document.getElementById('pantalla5').style.display == 'none'  ) {
         document.getElementById('pantalla1').style.display='none';
         document.getElementById('pantalla2').style.display='block';
         
@@ -72,12 +72,16 @@ function otras(numero) {
         document.getElementById('b4').style.display = 'block';
         document.getElementById('mensaje3.1').style.display = 'none';
         document.getElementById('bo1').style.display = 'block';
+        document.getElementById('tra1').style.display = 'none';
+        document.getElementById('tra').style.display = 'block';
+
         limpiar();
         }
     }
     function retiroso(num) {
     n += num;           
     document.getElementById('retiro').value = n;                      
+    limpiarme();
     }   
     function val(num) {
         n = parseInt(document.getElementById('retiro').value);
@@ -85,13 +89,13 @@ function otras(numero) {
         if (num == 1 && document.getElementById('pantalla5').style.display == 'block'  ) {
 
         if ( n % 10 == 0  ) {
+            
         if (dinero<= n) {
-        alert("no");
         n = 0;
-        document.getElementById('tra').style.display = 'none';
         document.getElementById('tra1').style.display = 'block';
-        }
+        document.getElementById('tra').style.display = 'none';
 
+        }
         document.getElementById('pantalla5').style.display = 'none';
         document.getElementById('pantalla6').style.display = 'block';
         document.getElementById('bo11').style.display = 'block';
@@ -99,9 +103,9 @@ function otras(numero) {
         retiro += parseInt(n);
         document.getElementById('bo2').style.display = 'none';
         document.getElementById('bo21').style.display = 'block';
-
+        
         limpiar2(); 
-    }else{
+        }else{
         document.getElementById('mensaje3.1').style.display = 'block';
         limpiar2(); 
             }
@@ -110,6 +114,9 @@ function otras(numero) {
     function limpiar2() {
         n = "";
         document.getElementById('retiro').value = "";
+    }
+    function limpiarme() {
+        document.getElementById('mensaje3.1').style.display = 'none';
     }
     function siono(num) { 
         if (num == 1 && document.getElementById('pantalla5').style.display == 'none') {
@@ -186,10 +193,3 @@ function otras(numero) {
             
         }
     }
-    function name(num) {
-        
-    }
-   
-
-   
-
