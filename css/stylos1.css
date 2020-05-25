@@ -38,30 +38,149 @@ margin-left: 50px;
     border-radius: 0.5rem;
     border: 10px solid rgba(96, 100, 100, 0.993);
 }
-.botoncito{
+.botoncito1{
     width: 60px;
     height: 60px;
     border-radius: 10px;
     border: 1px solid black; 
-  }       
+    position: absolute;
+  }   
+  .botoncito2{
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    border: 1px solid black; 
+    position: absolute;
+    margin-left: 70px;
+  }   
+  .botoncito3{
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    border: 1px solid black; 
+    position: absolute;
+    margin-left: 140px;
+
+  }  
+  .botoncito4{
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    border: 1px solid black; 
+    position: absolute;
+    margin-top: 70px;
+  }   
+  .botoncito5{
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    border: 1px solid black; 
+    position: absolute;
+    margin-top: 70px;
+    margin-left: 70px;
+  }   
+  .botoncito6{
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    border: 1px solid black; 
+    position: absolute;
+    margin-top: 70px;
+    margin-left: 140px;
+  }   
+  .botoncito7{
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    border: 1px solid black; 
+    position: absolute;
+    margin-top: 140px;
+  }   
+  .botoncito8{
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    border: 1px solid black; 
+    position: absolute;
+    margin-top: 140px;
+    margin-left: 70px;
+  }   
+  .botoncito9{
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    border: 1px solid black; 
+    position: absolute;
+    margin-top: 140px;
+    margin-left: 140px;
+  }   
+  .botoncito10{
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    border: 1px solid black; 
+    position: absolute;
+    margin-top: 210px;
+  }   
+  .botoncito11{
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    border: 1px solid black; 
+    position: absolute;
+    margin-top: 210px;
+    margin-left: 70px;
+  }   
+  .botoncito12{
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    border: 1px solid black; 
+    position: absolute;
+    margin-top: 210px;
+    margin-left: 140px;
+  }     
 
 .botones_op{
     width: 80px;
     height: 50px;
-    
-    margin-left: 15px;
+    position: absolute;
+    margin-left: 265px;
     border-radius: 10px;
-    border: 1px solid black;  
+    border: 1px solid black; 
+    margin-top: 210px; 
+}
+.botones_op1{
+  width: 80px;
+  height: 50px;
+  position: absolute;
+  margin-left: 265px;
+  border-radius: 10px;
+  border: 1px solid black;
+  margin-top: 136px;  
+}
+.botones_op2{
+  width: 80px;
+  height: 50px;
+  position: absolute;
+  margin-left: 265px;
+  border-radius: 10px;
+  border: 1px solid black;
+  margin-top: 60px;  
 }
 .botones_g{
-    margin-left: 50px;
-    margin-top: 50px;
+  position: absolute;
+
+    margin-left: 41px;
+    margin-top: 323px;
 }
 .naruto{
+  position: absolute;
 float: right;
 width: 580px;
 height:250px;
-margin-right: -20px;
+margin-left: 340px;
+margin-top: 350px;
 }
 .cuadrado1 {
   width: 200px;
@@ -225,6 +344,7 @@ margin-right: -20px;
 
 }
 .cant1{
+  
 size: 30px;
 margin-top: 100px;
 margin-left: 35px;
@@ -246,7 +366,7 @@ position: absolute;
   font-family: 'Open Sans', sans-serif;
   size: 30px;
   margin-left:370px;
-  margin-top: 135px;
+  margin-top: 90px;
   color: rgb(104, 64, 12);
 }
 .canti3{
@@ -255,7 +375,7 @@ position: absolute;
   font-family: 'Open Sans', sans-serif;
   size: 30px;
   margin-left:370px;
-  margin-top: 170px;
+  margin-top: 185px;
   color: rgb(104, 64, 12);
 }
 .canti4{
@@ -264,7 +384,7 @@ position: absolute;
   font-family: 'Open Sans', sans-serif;
   size: 30px;
   margin-left:370px;
-  margin-top: 235px;
+  margin-top: 195px;
   color: rgb(104, 64, 12);
 }
 .titulo4{
@@ -283,7 +403,7 @@ position: absolute;
   font-family: 'Open Sans', sans-serif;
   size: 30px;
   margin-left:370px;
-  margin-top: 180px;
+  margin-top: 134px;
   color: rgb(104, 64, 12);
 }
 .retiro{
@@ -404,4 +524,117 @@ position: absolute;
  color: rgb(104, 64, 12);
  margin-top: 250px;
  margin-left: 400px;
+}
+.boto1{
+  position: absolute;
+  width: 40px;
+  height: 30px;
+  border-radius: 0.5rem;
+  border: none ;
+  margin-top: 100px;
+  margin-left: 100px;
+}
+.boton2{
+  position: absolute;
+  width: 40px;
+  height: 30px;
+  border-radius: 0.5rem;
+  border: none ;
+  margin-top: 150px;
+  margin-left: 100px;
+}
+.boton3{
+  position: absolute;
+  width: 40px;
+  height: 30px;
+  border-radius: 0.5rem;
+  border: none ;
+  margin-top: 200px;
+  margin-left: 100px;
+}
+.boton4{
+  position: absolute;
+  width: 40px;
+  height: 30px;
+  border-radius: 0.5rem;
+  border: none ;
+  margin-top: 250px;
+  margin-left: 100px;
+}
+.d1{
+  position: absolute;
+  width: 40px;
+  height: 30px;
+  border-radius: 0.5rem;
+  border: none ;
+  margin-top: 100px;
+  margin-left: 735px;
+}
+.d2{
+  position: absolute;
+  width: 40px;
+  height: 30px;
+  border-radius: 0.5rem;
+  border: none ;
+  margin-top: 150px;
+  margin-left: 735px;
+}
+.d3{
+  position: absolute;
+  width: 40px;
+  height: 30px;
+  border-radius: 0.5rem;
+  border: none ;
+  margin-top: 200px;
+  margin-left: 735px;
+}
+.d4{
+  position: absolute;
+  width: 40px;
+  height: 30px;
+  border-radius: 0.5rem;
+  border: none ;
+  margin-top: 250px;
+  margin-left: 735px;
+}
+.op9{
+  position: absolute;
+  margin-top: 276px;
+  
+}
+.canti7{
+  position: absolute;
+  font-family: 'Balsamiq Sans', cursive;
+  font-family: 'Open Sans', sans-serif;
+  size: 30px;
+  margin-left:370px;
+  margin-top: 136px;
+  color: rgb(104, 64, 12);
+}
+.canti{
+  position: absolute;
+  font-family: 'Balsamiq Sans', cursive;
+  font-family: 'Open Sans', sans-serif;
+  size: 30px;
+  margin-left:370px;
+  margin-top: 250px;
+  color: rgb(104, 64, 12);
+}
+.dolares{
+  position: absolute;
+  font-family: 'Balsamiq Sans', cursive;
+  font-family: 'Open Sans', sans-serif;
+  size: 30px;
+  margin-left:325px;
+  margin-top: 90px;
+  color: rgb(104, 64, 12);
+}
+.cance{
+  position: absolute;
+ font-family: 'Balsamiq Sans', cursive;
+ font-family: 'Open Sans', sans-serif;
+ size: 30px;
+ margin-left: 370px;
+ margin-top: 142px;
+ color: rgb(104, 64, 12);
 }
