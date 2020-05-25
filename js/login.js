@@ -92,9 +92,15 @@ function otras(numero) {
         n = parseInt(document.getElementById('retiro').value);
          
     if (num == 1 && document.getElementById('pantalla5').style.display == 'block'  ) {
-            
-    if ( n % 10 == 0) {
-                
+
+    if ( n % 10 == 0  ) {
+        if (dinero<= n) {
+            alert("no");
+            n = 0;
+            document.getElementById('tra').style.display = 'none';
+            document.getElementById('tra1').style.display = 'block';
+        }
+
         document.getElementById('pantalla5').style.display = 'none';
         document.getElementById('pantalla6').style.display = 'block';
         document.getElementById('bo11').style.display = 'block';
